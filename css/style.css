@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+.container{
+    padding-left: 5px;    
+    padding-top: 20px;
+}
+header{
+    height: 100px;
+}
+header div{
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+    background-size: 400px;
+    background-color: #4EA0FF;
+    background-attachment: local;
+
+} 
+header div img{
+    padding-top: 50px;
+    padding-left: 5px;
+    width: 200px;
+}
+
+.titolo h1{
+
+font-size: 40px;
+}
+.sottotitolo{
+    color: #808080;
+}
+.data{
+    color: #808080;
+}
+
+div a{
+    color: #20A9E5;
+}
+p{
+    padding-top: 20px;
+}
+ul{
+    padding-top: 20px;
+}
+table{
+    padding-top: 20px;
+}
+h2{
+    padding-top: 20px;
+    color: #808080;
+    font-size: 16px;
+}
+thead{
+    background-color: #20A9E5;
+    color: white;
+}
+td{
+    min-width: 250px;
+}
+.evidenziato{
+    background-color: yellow;
+}
+tbody tr{
+    background-color: #B0E5F2;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+footer section div{
+    width: 200px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.pub1{
+
+    background-image: url("../img/monitor.jpg");
+
+
+    
+}
+.pub2{
+    background-image: url("../img/graph.jpg");
+
+}
+footer section div div{
+    max-height: 10px;
+    font-size: 24px;
+    color: white;
+
+}
+
